@@ -32,6 +32,7 @@ module CurlBuilder
 
   DEFAULT_PROTOCOLS = {
     "http"   => true,
+    "ipv6" => true,
     "rtsp"   => false,
     "ftp"    => false,
     "file"   => false,
